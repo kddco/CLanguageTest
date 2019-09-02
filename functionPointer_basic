@@ -1,6 +1,5 @@
 /*指標函數 基本呼叫*/
 #include <stdio.h>
-
 double square(double x)
 {
 

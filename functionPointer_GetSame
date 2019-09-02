@@ -1,0 +1,13 @@
+#函數本身內容 和 函數取址結果會一樣
+#include <stdio.h>
+
+double square(double x)
+{
+    return x * x;
+}
+
+void main()
+{
+    printf("address of square = %p(%p)\n", square, &square);
+    printf("address of main = %p(%p)\n", main, &main);
+}

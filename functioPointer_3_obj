@@ -1,0 +1,13 @@
+/*用指標物件實作函數內容*/
+#include <stdio.h>
+typedef (*OP)(int a,int b);
+
+int add(int a,int b){
+    return a+b;    
+    
+}
+int main() {
+    OP ojb1=add; //物件ojb1指向add()函數
+    
+    printf("%d\n",ojb1(1,2));//物件obj1實作add()的內容
+}

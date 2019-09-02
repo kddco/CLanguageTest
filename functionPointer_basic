@@ -1,14 +1,16 @@
 /*指標函數 基本呼叫*/
 #include <stdio.h>
-void add(){  
+
+double square(double x)
+{
 
 }
-int main()
-{
-    int (*ptr)();    
-    ptr=add;
-    printf("%d\n%d\n",ptr,add);
 
-    return 0;
+void main()
+{
+    double (*ptr)();
+    ptr=square;
+    printf("%x\n",ptr);
+    printf("%x\n",square);
 }
  

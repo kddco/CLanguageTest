@@ -1,4 +1,4 @@
-#函數本身內容 和 函數取址結果會一樣
+//函數本身內容 和 函數取址結果會一樣
 #include <stdio.h>
 
 double square(double x)

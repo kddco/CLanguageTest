@@ -1,15 +1,14 @@
 /*指標函數 基本呼叫*/
 #include <stdio.h>
-void add(){
-    
-    
+void add(){  
+
 }
 int main()
 {
-    int (*ptr)();
-    
+    int (*ptr)();    
     ptr=add;
     printf("%d\n%d\n",ptr,add);
 
     return 0;
 }
+ 
